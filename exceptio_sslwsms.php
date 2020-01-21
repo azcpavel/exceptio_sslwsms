@@ -100,7 +100,7 @@ class exceptio_sslwsms extends Module
                 $value['phone'] = str_replace(" ", "", $value['phone']);
                 if(!preg_match('/^\+880/', $value['phone']) && strlen($value['phone']) == 11)
                     $value['phone'] = '+88'.$value['phone'];
-                if(strlen($value['phone']) == 14){                   
+                if(strlen($value['phone']) == 14 && $value['valid'] == 1){                   
                     $action = 'https://sms.sslwireless.com/pushapi/dynamic/server.php?';
                     $params = array(
                         'user'      => $this->sslUserId,
