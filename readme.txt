@@ -1,7 +1,7 @@
 To send sms with SSL Wireless for prestashop ^1.7
 
 Step 1
-Download zip file and extruct in to the modules dir.
+Download zip file and extract in to the modules dir.
 
 Step 2
 Add credentials in exceptio_sslwsms.php
