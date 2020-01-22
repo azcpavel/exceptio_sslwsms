@@ -7,7 +7,7 @@
 *   @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *   @abstract To send sms with SSL Wireless
 */
-require "..".DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR."config".DIRECTORY_SEPARATOR."config.inc.php";
+require $_SERVER["DOCUMENT_ROOT"].DIRECTORY_SEPARATOR.__PS_BASE_URI__."config".DIRECTORY_SEPARATOR."config.inc.php";
 if (!defined('_PS_VERSION_')) {
     exit;
 }
